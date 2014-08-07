@@ -1,6 +1,6 @@
 jQuery('.flight').click(function(){
 
-	jQuery('.flights-deal').slideToggle('fast').toggleClass('show');
+	jQuery('.flights-deal').slideToggle('fast').toggleClass('hide');
 
 });
 
