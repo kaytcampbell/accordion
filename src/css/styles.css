@@ -1,0 +1,113 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+html{
+	font-size: 16px;
+	font-family:Arial, sans-serif;
+}
+.container{
+	width: 320px;
+	margin: 0 auto;
+	clear:both;
+	padding: 0 10px;
+}
+h2{
+	font-size: 1.25em;
+	font-weight:bold;
+	color:#323232;
+}
+p{
+	font-size: 0.875em;
+}
+.flights-deal, .hotels-deal, .packages-deal{
+	clear:both;
+	background-color:#e6e6e6;
+	margin-top: 1px;
+	overflow:hidden;
+}
+.flight, .hotel, .package{
+	width:100%;
+	overflow:hidden;
+	border-top: 1px solid #ffffff;
+	overflow:hidden;
+	background-color:#00539b;
+}
+.flight:hover, .hotel:hover, .package:hover{
+	cursor:pointer;
+}
+.flights a:visited, .flights a, .flights a:active, .hotels a:visited, .hotels a, .hotels a:active, .packages a:visited, .packages a, .packages a:active {
+	color:#323232;
+}
+.deal-type-title{
+	height: 50px;
+	background-color:#00539b;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	padding: 15px 10px 0 10px;
+	font-size: 1.5em;
+	float:left;
+}
+.dealimage{
+	float:left;
+	width:30%;
+	max-width: 90px;
+}
+.dealtext{
+	float:left;
+	width:70%;
+	padding: 0 5px 0 5px;
+}
+.dealarrow{
+	float:left;
+	width:5%;
+	padding-top: 30px;
+	color: #e35205;
+}
+p.deal-title{
+	color:#00539b;
+	font-weight:bold;
+	text-decoration: underline;
+	margin: 5px 0;
+}
+.info{
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+.city{
+	float:left;
+}
+p.deal-city{
+	font-size: 0.75em;
+	margin: 0;
+}
+.pricing{
+	overflow:hidden;
+	float:right;
+}
+p.price{
+	margin: 0;
+	color: #e35205;
+	font-weight:bold;
+	text-align:right;
+}
+p.tax {
+	font-size: 0.625em;
+	text-align:right;
+	margin:5px 0;
+}
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+.plus {
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align:right;
+	float:right;
+	color: white;
+	padding: 15px 10px 0 0;
+}
